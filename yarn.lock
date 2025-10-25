@@ -8796,7 +8796,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/audit-logs@workspace:packages/plugins/audit-logs":
+"@strapi/audit-logs@workspace:*, @strapi/audit-logs@workspace:packages/plugins/audit-logs":
   version: 0.0.0-use.local
   resolution: "@strapi/audit-logs@workspace:packages/plugins/audit-logs"
   dependencies:
@@ -30080,6 +30080,7 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:15.3.0"
     "@rollup/plugin-swc": "npm:0.4.0"
     "@strapi/admin-test-utils": "workspace:*"
+    "@strapi/audit-logs": "workspace:*"
     "@strapi/eslint-config": "npm:0.2.0"
     "@swc-node/register": "npm:~1.9.1"
     "@swc/cli": "npm:0.3.10"

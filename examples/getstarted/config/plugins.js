@@ -35,7 +35,7 @@ module.exports = () => ({
     enabled: false,
     resolve: `../plugins/todo-example`, // From the /examples/plugins folder
   },
-  'audit-log': {
+  'audit-logs': {
     enabled: true,
     config: {
       enabled: true,
